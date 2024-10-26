@@ -9,3 +9,14 @@ for(let i = 0; i <= 100; i++) {
 // Part 2: Prime Time
 let n = 4;
 n++
+
+let isPrime = true;
+
+for(let i = 2; i <= Math.sqrt(n); i++) {
+    // console.log(n)
+    if(n % i === 0) {
+        isPrime = false;
+        break;
+    }
+
+}
