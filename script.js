@@ -18,5 +18,9 @@ for(let i = 2; i <= Math.sqrt(n); i++) {
         isPrime = false;
         break;
     }
-
+    
+    if(isPrime) {
+        console.log(n)
+        break;
+    }
 }
